@@ -1,8 +1,8 @@
 # contagem regressiva começando do 5
 import time
-n = int(input('Digite Quanto você quer de contagem regressiva: '))
+n = (input('Digite qualquer coisa para uma contagem regressiva começando do 5: '))
 
-for i in range(5,-n,-1):
+for i in range(5,-0,-1):
     if i < 1:
         break
     time.sleep(1)
