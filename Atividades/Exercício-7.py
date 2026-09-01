@@ -1,6 +1,6 @@
 # Média de um aluno
 
-m = input('Digite sua média: ')
+m = float('Digite sua média: ')
 if m >= 7:
     print(f'Aluno aprovado')
 else: 
